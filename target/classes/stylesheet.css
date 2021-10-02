@@ -1,0 +1,49 @@
+
+.button {
+  -fx-background-color: #2196F3!important;
+  -fx-text-fill: white;
+  -fx-padding: 8px 9px;
+  -fx-margin: 5px 0;
+  -fx-font-width:bold;
+  -fx-border: none;
+  -fx-cursor: pointer;
+  -fx-width: 100%;
+}
+.button1 {
+  -fx-background-color: red!important;
+  -fx-text-fill: white;
+  -fx-padding: 8px 9px;
+  -fx-margin: 5px 0;
+  -fx-font-width:bold;
+  -fx-border: none;
+  -fx-cursor: pointer;
+  -fx-width: 100%;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color: #f79646;
+    	-fx-color: #fff;
+    	-fx-font-size: 14px;
+    	-fx-font-weight: bold;
+    	-fx-letter-spacing: .3em;
+}
+
+.table-row-cell: odd{
+    -fx-background-color: #fde9d9;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:selected {
+    -fx-background-color: #0096C9;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.table-row-cell: hover {
+    -fx-background-color:#24fc03;
+    -fx-text-background-color: black;
+}
+.table-row-cell: even{
+
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
